@@ -1,7 +1,7 @@
 //Variables Declaration
 
 def muleversion="4.2.2"
-def env="DEV"
+def env="QA"
 def bussgrp="Speridian"
 def uri="https://anypoint.mulesoft.com"
 def worktype="MICRO"
