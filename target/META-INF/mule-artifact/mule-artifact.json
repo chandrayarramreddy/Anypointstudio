@@ -1,0 +1,30 @@
+{
+  "configs": [
+    "first-project.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:test-teja:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.2.2",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api/first-project.raml",
+        "api/Fragments/200.raml",
+        "api/Fragments/400.raml",
+        "api/Fragments/500.raml",
+        "api/Fragments/dataType.raml",
+        "api/Fragments/Oath.raml",
+        "first-project.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
